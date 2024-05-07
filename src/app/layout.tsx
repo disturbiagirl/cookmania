@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,9 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="min-h-screen flex flex-col items-around justify-between">
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

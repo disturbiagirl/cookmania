@@ -5,7 +5,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => {
   return (
-    <nav className="bg-gray-200 p-3 pb-0 flex flex-wrap items-center justify-between">
+    <nav className="bg-gray-200 p-3 pb-0 flex  items-center justify-between">
       <Image src="/CookMania.png" alt="CookMania" width={120} height={120} />
       <div className="flex items-center h-10 pl-3 m-6 bg-gray-100 rounded-lg">
         <FontAwesomeIcon icon={faMagnifyingGlass} />
