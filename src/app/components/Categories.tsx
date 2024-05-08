@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Categories = () => {
   return (
-    <div className="flex flex-col flex-wrap items-center justify-between p-6 bg-gray-200 gap-6">
+    <div className="flex flex-col flex-wrap items-center justify-between p-6 bg-gray-200 gap-4">
       <h3 className="text-l font-bold">Categories</h3>
       <div className="flex justify-evenly w-full flex-wrap gap-6 text-sm">
         <div className="flex flex-col items-center justify-center gap-2 ">
