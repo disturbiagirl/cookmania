@@ -1,10 +1,23 @@
 import Categories from "./components/Categories";
 import Image from "next/image";
 import Link from "next/link";
+import { Dancing_Script } from "next/font/google";
+
+const dance = Dancing_Script({
+  subsets: ["latin"],
+});
 
 export default function Home() {
   return (
     <div>
+      <div className="flex justify-center p-8 bg-white">
+        <h2>
+          SIMPLE RECIPES MADE FOR THE{"  "}
+          <span className={`${dance.className} text-red-600 text-5xl`}>
+            real, actual, everyday life.
+          </span>
+        </h2>
+      </div>
       <div
         className="flex items-center space-around gap-4 bg-gray-300 w-full
       "
