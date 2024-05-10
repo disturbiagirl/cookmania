@@ -1,4 +1,5 @@
 import Categories from "./components/Categories";
+import Latest from "./components/Latest";
 import Image from "next/image";
 import Link from "next/link";
 import { Dancing_Script } from "next/font/google";
@@ -41,7 +42,7 @@ export default function Home() {
         </div>
       </div>
       <Categories />
-      <p>Home</p>;
+      <Latest />
     </div>
   );
 }
