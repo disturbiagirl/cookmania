@@ -32,11 +32,11 @@ export default function Home() {
           style={{ width: "50%", height: "auto" }}
         />
         <div className="flex flex-col items-center justify-center w-1/2">
-          <h1 className="text-gray-700">
+          <h1 className="text-gray-700 text-xl">
             Learn the secret for the best roast chicken!
           </h1>
 
-          <Link href="/" className="hover:text-blue-500">
+          <Link href="/" className="hover:text-blue-500 text-xl">
             read now...
           </Link>
         </div>
