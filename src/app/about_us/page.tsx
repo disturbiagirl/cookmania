@@ -8,14 +8,14 @@ const About = () => {
       <p className="pb-3">
         CookMania is here to help you cook delicious meals with less stress and
         more joy. We offer recipes and cooking advice for home cooks, by home
-        cooks. Helping create “kitchen wins” is what we’re all about.
+        cooks. Helping create “kitchen wins” is what we&apos;re all about.
       </p>
 
       <p className="pb-3">
         CookMania connects home cooks with their greatest sources of inspiration
-        — other home cooks. We're the fastest developing digital food brand, and
-        that inspires us to do everything possible to keep our community
-        connected. Home cooks deserve no less!
+        — other home cooks. We&apos;re the fastest developing digital food
+        brand, and that inspires us to do everything possible to keep our
+        community connected. Home cooks deserve no less!
       </p>
     </div>
   );
