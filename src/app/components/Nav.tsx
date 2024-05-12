@@ -23,7 +23,7 @@ const Nav = () => {
         <Link href="/" className="hover:text-blue-500">
           Profile
         </Link>
-        <Link href="/" className="hover:text-blue-500">
+        <Link href="/about_us" className="hover:text-blue-500">
           About Us
         </Link>
       </ul>
