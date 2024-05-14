@@ -6,7 +6,9 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 const Nav = () => {
   return (
     <nav className="bg-gray-200 p-3 pb-0 flex flex-wrap items-center justify-between">
-      <Image src="/CookMania.png" alt="CookMania" width={120} height={120} />
+      <Link href="/">
+        <Image src="/CookMania.png" alt="CookMania" width={120} height={120} />
+      </Link>
       <div className="flex items-center h-10 pl-3 m-6 bg-gray-100 rounded-lg">
         <FontAwesomeIcon icon={faMagnifyingGlass} />
         <input
@@ -17,7 +19,7 @@ const Nav = () => {
         />
       </div>
       <ul className="flex space-around text-xl gap-4 pr-4 ">
-        <Link href="/" className="hover:text-blue-500">
+        <Link href="/login" className="hover:text-blue-500">
           Log In
         </Link>
         <Link href="/" className="hover:text-blue-500">
