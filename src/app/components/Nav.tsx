@@ -2,8 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { getSession } from "@/actions";
+import LogoutForm from "./logoutForm";
 
-const Nav = () => {
+const Nav = async () => {
+  const session = await getSession();
+  console.log(session);
   return (
     <nav className="bg-gray-200 p-3 pb-0 flex flex-wrap items-center justify-between">
       <Link href="/">
@@ -29,6 +33,7 @@ const Nav = () => {
           About Us
         </Link>
       </ul>
+      {session.isLoggedIn && <LogoutForm />}
     </nav>
   );
 };
